@@ -1,0 +1,51 @@
+@tailwind base;
+@layer base {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+  a {
+    @apply text-blue-600 underline;
+  }
+  table {
+    @apply border table-auto w-full text-sm border-gray;
+  }
+
+  th {
+    @apply border border-gray p-2;
+  }
+
+  td {
+    @apply border border-gray p-2;
+  }
+}
+
+.link {
+  @apply text-blue-600 underline;
+}
+
+textarea,
+input[type="text"],
+input[type="password"] {
+  @apply border border-gray rounded px-3 py-2;
+}
+
+.btn {
+  @apply border border-gray rounded px-3 py-2 capitalize;
+}
+
+.btn:hover {
+  @apply opacity-50;
+}
+
+.btn:disabled {
+  @apply cursor-not-allowed opacity-100 bg-gray;
+}
+
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,43 @@
+{
+  "name": "nuxtjs-exercise",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^35.0.1",
+    "@ckeditor/ckeditor5-vue2": "^3.0.1",
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/vue-fontawesome": "^2.0.8",
+    "@nuxtjs/axios": "^5.13.6",
+    "chance": "^1.1.8",
+    "cookie-parser": "^1.4.6",
+    "cookieparser": "^0.1.0",
+    "core-js": "^3.19.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.5",
+    "express": "^4.18.1",
+    "fast-sort": "^3.2.0",
+    "js-cookie": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mime-types": "^2.1.35",
+    "multer": "^1.4.5-lts.1",
+    "nuxt": "^2.15.8",
+    "rand-token": "^1.0.1",
+    "vue": "^2.6.14",
+    "vue-currency-input": "^3.0.0",
+    "vue-js-modal": "^2.0.1",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "postcss": "^8.4.4"
+  }
+}
